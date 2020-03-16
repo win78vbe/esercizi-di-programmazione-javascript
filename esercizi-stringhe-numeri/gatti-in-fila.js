@@ -17,3 +17,13 @@
 
   http://www.imparareaprogrammare.it
 */
+var cats = 5;
+
+var inLine = 2;
+
+var numLines = Math.ceil(cats/inLine);
+
+var missing = (numLines*inLine)-cats;
+
+console.log('${cats} gatti infila per ${inLine} si unirono compatti in ${numLines} file. Nellltim rimasero ${missing} posti gatto disponibili.');
+
